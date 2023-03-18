@@ -104,7 +104,7 @@ def canned_response(voice_data):
 @app.route('/speak_computer')
 def speak_computer():
     time.sleep(1)
-    am_speak('Howdy! How can I help you?')
+    # am_speak('Howdy! How can I help you?')
     while 1:
         voice_data = listen_for_audio()
         canned_response(voice_data)
