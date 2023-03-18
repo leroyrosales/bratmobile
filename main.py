@@ -19,7 +19,7 @@ load_dotenv(find_dotenv())
 openai.api_key = os.getenv('OPEN_AI_KEY')
 
 # Set the model and prompt
-model_engine = "text-davinci-003"
+model_engine = "gpt-3.5-turbo"
 
 # Set the maximum number of tokens to generate in the response
 max_tokens = 1024
