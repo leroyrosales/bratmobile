@@ -1,0 +1,15 @@
+{
+  "name": "allied-mastercomputer",
+  "version": "1.0.0",
+  "description": "A fun speech to text app, that talks back and helps you do a few things on the web.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i static/style.css -o static/css/main.css --watch",
+    "prod": "npx tailwindcss -i ./assets/css/style.css --jit -o ./style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}

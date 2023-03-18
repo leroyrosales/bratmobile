@@ -1,23 +1,27 @@
----
-title: Flask
-description: A popular minimal server framework for Python
-tags:
-  - python
-  - flask
----
+# Allied Mastercomputer
 
-# Python Flask Example
+A fun speech to text app, that talks back and helps you do a few things on the web.
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+## Instructions
+1. Clone or download project locally.
+2. Run `pipenv install`
+3. After installation run `pipenv shell`
+4. In the pipenv shell simply run `python main.py`
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+## Troubleshooting
+If you're running into issues with `pyaudio` not installing you may need to run `brew install pyaudio`. This seems to be a common issue on mac OS machines.
 
-## ✨ Features
+## Apple Mac OS X (Homebrew & PyAudio)
+Use Homebrew to install the prerequisite portaudio library, then install PyAudio using pip:
 
-- Python
-- Flask
+`brew install portaudio`
+`pip install pyaudio`
 
-## 💁‍♀️ How to use
+Notes:
 
-- Install Python requirements `pip install -r requirements.txt`
-- Start the server for development `python3 main.py`
+If not already installed, download Homebrew.
+pip will download the PyAudio source and build it for your version of Python.
+Homebrew and building PyAudio also require installing the Command Line Tools for Xcode (more information).
+
+[https://people.csail.mit.edu/hubert/pyaudio/](https://people.csail.mit.edu/hubert/pyaudio/)
+
